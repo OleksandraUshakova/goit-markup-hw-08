@@ -9,13 +9,28 @@ background-color: #f5f4fa;
   }
 }   
 .team-title{
-    margin-bottom: 47px;
-    font-weight: 700;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--headlines-text-color);
+  
+  @media screen and (min-width: 480px) and (max-width: 767px) {
+    margin-bottom: 30px;
+  }
+
+  @media screen and (min-width: 768px) {
+    margin-bottom: 0;
+  }
+
+  @media screen and (min-width: 1200px) {
     font-size: 36px;
     line-height: 1.17;
-    text-align: center;
-    letter-spacing: 0.03em;
-    }
+    margin-bottom: 50px;
+  }
+}
     
 .team-photo-description{
     padding-top: 30px;

@@ -2,21 +2,34 @@
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
-
-    
+    @media screen and (min-width: 768px) and (max-width: 1199px) {
+        margin-left: -30px;
     }
-
+}
+.buttons{
+    @media screen and (min-width: 767px) {
+        padding-top: 94px;
+        padding-bottom: 94px;
+      }
+      @media screen and (max-width: 1199px) {
+        padding: 60px 0px;
+      }
+}
 .btn-menu{
     
     display: flex;
-    justify-content: center;
-    margin-bottom: 50px;
+    justify-content: left;
+    margin-bottom: 40px;
 
     @media screen and (max-width: 767px){
     flex-wrap: wrap;
     margin-top: -15px;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     }
+    @media screen and (min-width: 768px){
+    justify-content: center;
+    }
+
 }
 
 .button-item {
@@ -64,11 +77,6 @@ transition-property: color, background-color, box-shadow;
         }
 }
 
-.buttons {
-    padding-top: 94px;
-    padding-bottom: 94px;
-    }
-
 .content-item{    
 &:hover .portfolio-overlay, 
 &:focus .portfolio-overlay {
@@ -82,10 +90,10 @@ transition-property: color, background-color, box-shadow;
     }
         
     @media screen and (min-width: 768px) and (max-width: 1199px) {
-    margin-left: 15px;
-    margin-right: 15px;    
-    width: 370px;
-    flex-basis: calc(100% / 2 - 30px);
+    
+        flex-basis: calc(100% / 2 - 30px);
+        margin-left: 30px;
+    
         
     &:not(:last-child) {
               margin-bottom: 30px;

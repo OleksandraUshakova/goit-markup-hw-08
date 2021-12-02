@@ -86,11 +86,14 @@ color:var(--primary-title-color);
 margin-bottom: 10px;  
 
 @media screen and (max-width: 768px) {
-    text-align: left;
+  text-align: left;
   }
-  @media screen and (min-width: 1200px) {
-    text-align: left;      
+@media screen and (min-width: 1200px) {
+  text-align: left;      
     }
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  text-align: center;
+}
 }
 
 .hero-description{
