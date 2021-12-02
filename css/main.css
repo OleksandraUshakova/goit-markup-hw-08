@@ -94,6 +94,8 @@ p, h1, h2, h3, h4, h5, h6 {
 .modal {
   position: absolute;
   margin-left: 15px;
+  margin-top: 93px;
+  width: 100%;
   max-width: 450px;
   height: 609px;
   background-color: white;
@@ -1425,7 +1427,6 @@ p, h1, h2, h3, h4, h5, h6 {
 
 .photo-description {
   padding: 20px 24px;
-  width: 100%;
   border: 1px solid #eeeeee;
   border-top: 0;
 }
@@ -1524,10 +1525,6 @@ p, h1, h2, h3, h4, h5, h6 {
   }
 }
 
-.footer-address {
-  margin-top: 20px;
-}
-
 @media screen and (max-width: 1199px) {
   .footer-address {
     -webkit-box-align: center;
@@ -1547,6 +1544,12 @@ p, h1, h2, h3, h4, h5, h6 {
 
 .footer-address .footer-contacts + .footer-contacts {
   margin-top: 9px;
+}
+
+.footer-contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 @media screen and (max-width: 1199px) {
@@ -1668,7 +1671,6 @@ p, h1, h2, h3, h4, h5, h6 {
 
 .form-footer-input {
   width: 358px;
-  height: 50px;
   margin-right: 12px;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -1965,10 +1967,10 @@ p, h1, h2, h3, h4, h5, h6 {
   margin-right: auto;
 }
 
-@media screen and (max-width: 1199px) {
+@media screen and (min-width: 1200px) {
   .main-title {
-    font-size: 28px;
-    line-height: 1.18;
+    font-size: 44px;
+    line-height: 1.36;
     margin-bottom: 30px;
   }
 }
