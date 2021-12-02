@@ -969,15 +969,9 @@ p, h1, h2, h3, h4, h5, h6 {
   color: var(--headlines-text-color);
 }
 
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (min-width: 480px) {
   .team-title {
     margin-bottom: 30px;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .team-title {
-    margin-bottom: 0;
   }
 }
 
@@ -1595,6 +1589,7 @@ p, h1, h2, h3, h4, h5, h6 {
   .footer-icons {
     text-align: left;
     margin-bottom: 0;
+    margin-top: 3px;
   }
 }
 
